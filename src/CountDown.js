@@ -12,7 +12,7 @@ function CountDown() {
       document.getElementById("minutes").innerHTML = minutes;
 
       if (seconds < !0) {
-        //if sec is not less than zero
+        //if sec is not less than zero.
         if (seconds === 0) {
           minutes -= 1;
           seconds = 60; //since second is set seconds back to 60
